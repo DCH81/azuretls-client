@@ -1,10 +1,11 @@
 package azuretls_test
 
 import (
-	"github.com/Noooste/azuretls-client"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/DCH81/azuretls-client"
 )
 
 func TestSession_EnableVerbose(t *testing.T) {

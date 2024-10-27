@@ -1,9 +1,10 @@
 package azuretls_test
 
 import (
-	"github.com/Noooste/azuretls-client"
-	http "github.com/Noooste/fhttp"
 	"testing"
+
+	"github.com/DCH81/azuretls-client"
+	http "github.com/Noooste/fhttp"
 )
 
 func TestCookiesToString(t *testing.T) {

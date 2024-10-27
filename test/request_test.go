@@ -5,12 +5,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/Noooste/azuretls-client"
-	http "github.com/Noooste/fhttp"
 	"net/url"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/DCH81/azuretls-client"
+	http "github.com/Noooste/fhttp"
 )
 
 func TestRequest_SetContext(t *testing.T) {

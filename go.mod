@@ -3,7 +3,6 @@ module github.com/DCH81/azuretls-client
 go 1.21.5
 
 require (
-	github.com/DCH81/azuretls-client v1.5.4
 	github.com/Noooste/fhttp v1.0.12
 	github.com/Noooste/utls v1.2.10
 	github.com/Noooste/websocket v1.0.3

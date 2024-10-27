@@ -2,9 +2,10 @@ package azuretls_test
 
 import (
 	"context"
-	"github.com/Noooste/azuretls-client"
 	"os"
 	"testing"
+
+	"github.com/DCH81/azuretls-client"
 )
 
 var skipProxy bool

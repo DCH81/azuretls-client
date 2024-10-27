@@ -1,11 +1,12 @@
 package azuretls_test
 
 import (
-	"github.com/Noooste/azuretls-client"
-	http "github.com/Noooste/fhttp"
 	"net/url"
 	"strings"
 	"testing"
+
+	"github.com/DCH81/azuretls-client"
+	http "github.com/Noooste/fhttp"
 )
 
 func TestRedirect(t *testing.T) {

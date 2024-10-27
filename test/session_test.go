@@ -5,8 +5,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/Noooste/azuretls-client"
-	http "github.com/Noooste/fhttp"
 	"log"
 	"net/url"
 	"os"
@@ -14,6 +12,9 @@ import (
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/DCH81/azuretls-client"
+	http "github.com/Noooste/fhttp"
 )
 
 func TestNewSession(t *testing.T) {

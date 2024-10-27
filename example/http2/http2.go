@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/Noooste/azuretls-client"
+
+	"github.com/DCH81/azuretls-client"
 )
 
 func main() {

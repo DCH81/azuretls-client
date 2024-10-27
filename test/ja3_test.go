@@ -2,12 +2,13 @@ package azuretls_test
 
 import (
 	"encoding/json"
-	"github.com/Noooste/azuretls-client"
 	"log"
 	"os"
 	"strings"
 	"sync"
 	"testing"
+
+	"github.com/DCH81/azuretls-client"
 )
 
 func TestDefaultConfig(t *testing.T) {
