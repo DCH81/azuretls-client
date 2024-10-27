@@ -1,14 +1,13 @@
-module github.com/DCH81/azuretls-client
+module github.com/DCH81
 
-go 1.21
-
-toolchain go1.21.5
+go 1.21.5
 
 require (
-	github.com/DCH81/fhttp v1.0.12
-	github.com/DCH81/utls v1.2.10
-	github.com/DCH81/websocket v1.0.3
-	github.com/fatih/color v1.17.0
+	github.com/Noooste/azuretls-client v1.5.4
+	github.com/Noooste/fhttp v1.0.12
+	github.com/Noooste/utls v1.2.10
+	github.com/Noooste/websocket v1.0.3
+	github.com/fatih/color v1.18.0
 	golang.org/x/net v0.30.0
 )
 
