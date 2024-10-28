@@ -119,7 +119,6 @@ func GetLastChromeVersion() *tls.ClientHelloSpec {
 			tls.TLS_RSA_WITH_AES_256_GCM_SHA384,
 			tls.TLS_RSA_WITH_AES_128_CBC_SHA,
 			tls.TLS_RSA_WITH_AES_256_CBC_SHA,
-			tls.FAKE_TLS_EMPTY_RENEGOTIATION_INFO_SCSV,
 		},
 		CompressionMethods: []byte{
 			0x00, // compressionNone
