@@ -134,7 +134,7 @@ func GetLastChromeVersion() *tls.ClientHelloSpec {
 	}
 
 	return &tls.ClientHelloSpec{
-		CipherSuites: getShuffledCiphers(ciphers),
+		CipherSuites: ciphers,
 		CompressionMethods: []byte{
 			0x00, // compressionNone
 		},
