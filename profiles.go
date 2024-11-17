@@ -42,8 +42,6 @@ func getShuffledExtensions(extensions []tls.TLSExtension) []tls.TLSExtension {
 	final = append(final, &tls.UtlsGREASEExtension{})
 	final = append(final, &tls.UtlsPaddingExtension{GetPaddingLen: tls.BoringPaddingStyle})
 
-	final = append(final, &tls.UtlsPreSharedKeyExtension{})
-
 	return final
 }
 
