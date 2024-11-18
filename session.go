@@ -4,14 +4,15 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	http "github.com/Noooste/fhttp"
-	"github.com/Noooste/fhttp/cookiejar"
 	"io"
 	"net/url"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	http "github.com/Noooste/fhttp"
+	"github.com/Noooste/fhttp/cookiejar"
 )
 
 const (
@@ -37,8 +38,8 @@ func NewSessionWithContext(ctx context.Context) *Session {
 		CookieJar: cookieJar,
 		Browser:   Chrome,
 
-		Connections:        NewRequestConnPool(ctx),
-		GetClientHelloSpec: GetBrowserClientHelloFunc(Chrome),
+		Connections: NewRequestConnPool(ctx),
+		//	GetClientHelloSpec: GetBrowserClientHelloFunc(Chrome),
 
 		UserAgent: defaultUserAgent,
 

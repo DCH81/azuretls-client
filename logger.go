@@ -2,12 +2,13 @@ package azuretls
 
 import (
 	"fmt"
-	http "github.com/Noooste/fhttp"
-	"github.com/fatih/color"
 	"net/url"
 	"regexp"
 	"strings"
 	"time"
+
+	http "github.com/Noooste/fhttp"
+	"github.com/fatih/color"
 )
 
 // Log will print the request and response to the console

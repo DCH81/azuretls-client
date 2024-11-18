@@ -3,16 +3,17 @@ package azuretls
 import (
 	"context"
 	"errors"
-	http "github.com/Noooste/fhttp"
-	"github.com/Noooste/fhttp/cookiejar"
-	"github.com/Noooste/fhttp/http2"
-	tls "github.com/Noooste/utls"
 	"io"
 	"net"
 	"net/url"
 	"regexp"
 	"sync"
 	"time"
+
+	http "github.com/Noooste/fhttp"
+	"github.com/Noooste/fhttp/cookiejar"
+	"github.com/Noooste/fhttp/http2"
+	tls "github.com/Noooste/utls"
 )
 
 const (

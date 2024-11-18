@@ -4,13 +4,14 @@ import (
 	"context"
 	"crypto/x509"
 	"errors"
-	"github.com/Noooste/fhttp/http2"
-	tls "github.com/Noooste/utls"
 	"net"
 	"net/url"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/Noooste/fhttp/http2"
+	tls "github.com/Noooste/utls"
 )
 
 const (
