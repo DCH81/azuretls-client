@@ -13,7 +13,7 @@ func main() {
 
 	session.GetClientHelloSpec = azuretls.GetLastChromeVersion
 
-	resp, err := session.Get("https://tls.peet.ws/api/all")
+	resp, err := session.Get("https://cfdata.lol/tools/connection/")
 
 	if err != nil {
 		panic(err)
